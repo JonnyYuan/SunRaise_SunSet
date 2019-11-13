@@ -1,3 +1,8 @@
+/*
+** CSS variable.
+** the format is prefixed with --
+** because the $foo is used by Sass and the @foo is used by Less
+*/
 #sunset:checked ~ * {
   --sunset: 1;
   --sunrise: 0;
